@@ -1,0 +1,1 @@
+fgets(line, MAX_LEN, stream);
