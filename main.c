@@ -6,8 +6,8 @@
  *   Deskripsi           : Membuat program untuk mencari karakter Pokemon
  */
 
-#include <shlwapi.h>
-#define strcasestr StrStrIA 
+// #include <shlwapi.h>
+// #define strcasestr StrStrIA 
 
 #include <stdio.h>
 #include <stdlib.h>
