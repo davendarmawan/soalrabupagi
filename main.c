@@ -6,9 +6,6 @@
  *   Deskripsi           : Membuat program untuk mencari karakter Pokemon
  */
 
-// #include <shlwapi.h>
-// #define strcasestr StrStrIA 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -149,6 +146,9 @@ int main() {
 
       searchType(chr, n, srh_typ);
    }
+   
+   // Membebaskan memori
+   free(chr);
 
    return 0;
 }
